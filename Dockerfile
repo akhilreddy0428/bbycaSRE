@@ -1,7 +1,7 @@
 FROM node:10
 
 # Create app directory
-WORKDIR /opt/app/env
+WORKDIR /usr/src/app
 
 #RUN npm install
 RUN npm install --save express ejs

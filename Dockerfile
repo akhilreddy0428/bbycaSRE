@@ -9,5 +9,5 @@ RUN npm install --save express ejs
 # Bundle app source
 COPY . .
 
-EXPOSE 3000
-CMD [ "node", "bestbuy.ca.js" ]
+EXPOSE 8000
+CMD node bestbuy.ca.js
